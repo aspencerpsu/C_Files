@@ -1,0 +1,32 @@
+Directive       Description
+=========       =================================
+#define          Substitutes a preprocessor macro.
+#include         Inserts a particular header from another file.
+
+#undef           Undefines a preprocessor macro.
+#ifdef           Returns true if this macro is defined.
+#ifndef          Returns true if this marco is not defined.
+#if              Tests if a compile time condition is true.
+#else            The alternative for #if.
+#elif            #else and #if in one statement.
+
+#endif           Ends preprocessor conditional.
+#error           Prints error on stderr.
+#pragma          Issues special commands to the compiler, using a standardized method.
+
+
+
+
+/////////////////////////////////////////////////
+//////////////PREDEFINED MACROS//////////////////
+////////////////////////////////////////////////
+ANSI C DEFINES A NUMBER OF MACROS ALTHOUGH PREDEFINED MACROS SHOULD NOT BE DIRECTLY MODIFIED
+
+
+Macro         Description
+========      =======
+__DATE__      The current date as a character literal in "MMM DD YYYY format.
+__TIME__      The current time as a character literal in "HH:MM:SS" format
+__FILE__      This contains the current filename as a string literal.
+__LINE__      This contains the current line number as a decimal constant.
+__STDC__      Defined as 1 when the compiler complies with the ANSI standard.
