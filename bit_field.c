@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-
-
 /* define simple structure */
+/* using the ':' syntax for classifying the storage
+ * size for each field attribute
+ */
 
 struct {
 
