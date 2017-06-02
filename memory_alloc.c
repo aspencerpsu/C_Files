@@ -41,4 +41,8 @@ int main(  ) {
 
   printf("Description: %s\n", description );
 
+  printf("Length of Description: %d\n", sizeof(description));
+
+  printf("Length of Description (using strlen func): %d\n", strlen(description));
+
 }
