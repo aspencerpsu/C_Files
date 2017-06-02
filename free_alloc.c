@@ -21,7 +21,7 @@ int main (  ) {
 
   /* suppose you want to store a bigger description */
 
-  //description = realloc( description, 100 * sizeof(char));
+  description = realloc( description, 100 * sizeof(char));
 
   if ( description == NULL ) {
     fprintf(stderr, "Error - unable to allocate required memory\n");
@@ -30,8 +30,9 @@ int main (  ) {
     strcat( description, "She is in class 19");
   }
 
-  printf("Name =%s\n", name);
-  printf("Description: %s\n", description );
+  printf("Name: %s\n", name);
+  printf("Description: %s\n", description);
 
   free(description);
+
 }
