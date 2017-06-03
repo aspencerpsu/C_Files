@@ -17,5 +17,17 @@ int main(  ) {
 
     fprintf(stderr, "Error- unable to allocate memory");
 
-    // NOT FINISHED //
+  }
+  
+  else {
+   strcpy( description, "Akeem Spencer is a CTO from Westchester county");
+  } 
 
+  printf("Name = %s\n", name);
+
+  printf("Description: %s\n", description );
+  printf("Length of Description: %d\n", sizeof(description));
+  printf("Length of Description (using strlen func): %d\n", strlen(description));
+
+  return 0;
+}
