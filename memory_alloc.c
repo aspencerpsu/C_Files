@@ -45,4 +45,6 @@ int main(  ) {
 
   printf("Length of Description (using strlen func): %d\n", strlen(description));
 
+  return 0;
+
 }
